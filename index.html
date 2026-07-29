@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Happy Friendship Day - Nautanki & Ace 🩵</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Outfit:wght@400;600;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Background Sparkles & Ambient Floating Hearts -->
+  <div class="bg-decorations" id="bgDecorations"></div>
+
+  <!-- Emoji Rain Container for Prank -->
+  <div class="emoji-rain-overlay" id="emojiRainOverlay"></div>
+
+  <!-- Main Mobile App Shell -->
+  <div class="mobile-app-shell">
+    
+    <!-- Top Mobile Header / Bar -->
+    <header class="app-header" id="appHeader" style="display: none;">
+      <div class="header-content">
+        <span class="header-badge">ACE 🩵 NAUTANKI</span>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressBarFill"></div>
+        </div>
+        <span class="step-indicator" id="stepIndicator">1/17</span>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Card Container -->
+    <main class="app-viewport" id="appViewport">
+      <!-- Pages will be rendered here dynamically via JS -->
+    </main>
+
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
